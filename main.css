@@ -1,0 +1,76 @@
+.site-banner{
+background: black;
+text-align: left;
+border-bottom: 3px solid black;
+height:25px;
+}
+
+.news-section {
+	font-family:"Franklin Bold";
+	margin-top: 32px;
+	height: 14px;
+	text-decoration: underline;
+}
+
+.article { 
+font-family: "georgia";
+max-width:1200px;
+margin-right: auto;
+margin-left: auto;
+margin-top: 0px;
+margin-bottom: 0px;
+padding-right: 10px;
+padding-left: 10px;
+}
+
+.deck {
+	max-width:1200px;
+	font-family: "georgia";
+	padding-left:15px;
+	padding-right: 15px;
+	font-size:14px;
+}
+.p {
+	max-width:1200px;
+	font-family: "georgia";
+	font-size: 15px;
+	with: 800px;
+}
+
+.date {
+		height: 10px;
+		font-size:12px;
+		color: black;
+		margin-bottom: 20px;
+}
+
+.by-line {
+	max-width:1200px;
+	font-family:"georgia";
+	font-size: 14px;
+	padding-top:10px;
+	text-decoration: underline;
+}
+.news-section {
+	max-width:1200px;
+	font-weight:bolder;
+}
+.graphics {
+	display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+@media (max-width: 700px){.graphics {grid-template-columns: 1fr;
+}
+    
+.photo-caption {
+	max-width:1200px;
+	color: #666666;
+	height: 14px;
+	line-height: 18px;
+	margin-top: 0px;
+	padding-bottom:15px;
+}
